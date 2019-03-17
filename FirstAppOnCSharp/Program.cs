@@ -10,7 +10,7 @@ namespace FirstAppOnCSharp
             int y = 3;
             int sumXandY = Calculator.Sum(x, y);
 
-            Console.Write($"Сумма {x} и {y} равна {sumXandY}");
+            Console.Write($"The sum of {x} and {y} is {sumXandY}");
             Console.ReadKey();
         }
     }
