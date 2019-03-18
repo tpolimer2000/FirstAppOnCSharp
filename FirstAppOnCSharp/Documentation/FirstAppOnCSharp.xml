@@ -4,5 +4,29 @@
         <name>FirstAppOnCSharp</name>
     </assembly>
     <members>
+        <member name="T:FirstAppOnCSharp.Program">
+            <summary>
+            Запускаемый класс программы.
+            </summary>
+        </member>
+        <member name="M:FirstAppOnCSharp.Program.Main(System.String[])">
+            <summary>
+            Метод Main вызывается при старте программы.
+            </summary>
+            <param name="args">Массив аргументов.</param>
+        </member>
+        <member name="T:FirstAppOnCSharp.Calculator">
+            <summary>
+            Класс, который содержит методы для математических операций над числами.
+            </summary>
+        </member>
+        <member name="M:FirstAppOnCSharp.Calculator.Sum(System.Int32,System.Int32)">
+            <summary>
+            Метод Sum выполняет суммирование 2-х переменных.
+            </summary>
+            <param name="x">Первое слагаемое.</param>
+            <param name="y">Второе слагаемое</param>
+            <returns>Развращает сумму x и у.</returns>
+        </member>
     </members>
 </doc>

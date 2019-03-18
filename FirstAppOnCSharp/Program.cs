@@ -2,8 +2,15 @@
 
 namespace FirstAppOnCSharp
 {
+    /// <summary>
+    /// Запускаемый класс программы.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Метод Main вызывается при старте программы.
+        /// </summary>
+        /// <param name="args">Массив аргументов.</param>
         static void Main(string[] args)
         {
             int x = 2;
@@ -15,8 +22,17 @@ namespace FirstAppOnCSharp
         }
     }
 
+    /// <summary>
+    /// Класс, который содержит методы для математических операций над числами.
+    /// </summary>
     class Calculator
     {
+        /// <summary>
+        /// Метод Sum выполняет суммирование 2-х переменных.
+        /// </summary>
+        /// <param name="x">Первое слагаемое.</param>
+        /// <param name="y">Второе слагаемое</param>
+        /// <returns>Развращает сумму x и у.</returns>
         public static int Sum(int x, int y)
         {
             return (x + y);
